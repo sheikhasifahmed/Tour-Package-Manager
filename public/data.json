@@ -1,0 +1,92 @@
+[
+  {
+    "id": 101,
+    "name": "Museum",
+    "type": "Heritage",
+    "Timing": "9am-5pm",
+    "transport": "Delux",
+    "rating": 4.5,
+    "expense": 2000,
+    "image": "https://dmdlnu87i51n1.cloudfront.net/v1/uk/cjy5s86xz4dcg0195lvydm4of/0x120:1163x610/1152x604/2279ne_for_front_british_museum_the_trustees_of_the_british_museum.jpg"
+  },
+  {
+    "id": 202,
+    "name": "Safari Park",
+    "type": "Wild Life",
+    "Timing": "9am-5pm",
+    "transport": "Delux",
+    "rating": 4.2,
+    "expense": 5000,
+    "image": "https://images.pexels.com/photos/247376/pexels-photo-247376.jpeg"
+  },
+  {
+    "id": 303,
+    "name": "Sea Beach",
+    "type": "Nature",
+    "Timing": "9am-5pm",
+    "transport": "Delux",
+    "rating": 4.8,
+    "expense": 7000,
+    "image": "https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg"
+  },
+  {
+    "id": 404,
+    "name": "Water Fall",
+    "type": "Nature",
+    "Timing": "9am-5pm",
+    "transport": "Delux",
+    "rating": 4.5,
+    "expense": 5000,
+    "image": "https://images.pexels.com/photos/3836292/pexels-photo-3836292.jpeg"
+  },
+  {
+    "id": 505,
+    "name": "Fantasy World",
+    "type": "Amusement",
+    "Timing": "9am-8pm",
+    "transport": "VIP",
+    "rating": 4.6,
+    "expense": 8000,
+    "image": "https://images.pexels.com/photos/1782146/pexels-photo-1782146.jpeg"
+  },
+  {
+    "id": 606,
+    "name": "Tea Garden",
+    "type": "Nature",
+    "Timing": "9am-5pm",
+    "transport": "Regular",
+    "rating": 4.1,
+    "expense": 3000,
+    "image": "https://images.pexels.com/photos/392100/pexels-photo-392100.jpeg"
+  },
+  {
+    "id": 707,
+    "name": "Gallery",
+    "type": "Culture",
+    "Timing": "11am-5pm",
+    "transport": "Regular",
+    "rating": 4,
+    "expense": 2000,
+    "image": "https://images.pexels.com/photos/69903/pexels-photo-69903.jpeg"
+  },
+  {
+    "id": 808,
+    "name": "River View",
+    "type": "Nature",
+    "Timing": "8am-5pm",
+    "transport": "Regular",
+    "rating": 4.1,
+    "expense": 3000,
+    "image": "https://images.pexels.com/photos/1796727/pexels-photo-1796727.jpeg"
+  },
+  {
+    "id": 909,
+    "name": "City Park",
+    "type": "Local",
+    "Timing": "9am-7pm",
+    "transport": "Non",
+    "rating": 3.1,
+    "expense": 1000,
+    "image": "https://images.pexels.com/photos/6050/nature-bird-people-grass.jpg"
+  }
+]

@@ -1,10 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
+import TourManager from "./Component/TourManager/TourManager";
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
+      <TourManager></TourManager>
     </div>
   );
 }
