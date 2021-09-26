@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Tour Package Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live link of this site: https://tour-package-manager.netlify.app
 
 ## Available Scripts
 
