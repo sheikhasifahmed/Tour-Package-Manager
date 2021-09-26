@@ -21,6 +21,11 @@ package will be calculated immediately.
 
 
 
+
+
+
+
+
 ### 2.Project building scripts & libraries
 
 #### Reac.js
@@ -33,6 +38,10 @@ This project is build with just CSS styling. No, framework of CSS is used.
 #### Font Awsome
 All the icon that used in this project is by Font_Awsome.
 here is the fontAwsome link https://fontawesome.com
+
+
+
+
 
 
 
