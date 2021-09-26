@@ -5,7 +5,8 @@ const Single = (props) => {
   const pkg = props.singlePack;
   const { name, type, image, Timing, expense, transport, rating } = pkg;
   const addPackage = props.addPackage;
-  const icon = <i class="fas fa-plane-departure"></i>;
+  const icon = <i className="fas fa-plane-departure"></i>;
+  const star = <i className="fas fa-star"></i>;
   return (
     <div className="single-card">
       <div>
@@ -20,7 +21,9 @@ const Single = (props) => {
         <h3 className="exp">Expense: ${expense}</h3>
       </div>
       <div className="flex-foot">
-        <h3 className="rating">Rating: {rating}</h3>
+        <h3 className="rating">
+          {rating} {star}
+        </h3>
         <button
           className="btn"
           onClick={() => {

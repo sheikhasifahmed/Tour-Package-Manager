@@ -9,10 +9,11 @@ const SidePart = (props) => {
   }
   return (
     <div className="side">
-      <h1 className="side-head">Total Cost: ${total}</h1>
+      <h2 className="side-head">Total Cost: ${total}</h2>
+      <h3>Total spot: {selected.length}</h3>
       <div className="added-items">
         {selected.map((p) => (
-          <Item pcz={p}></Item>
+          <Item pcz={p} key={p.id}></Item>
         ))}
       </div>
     </div>

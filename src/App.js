@@ -11,7 +11,6 @@ function App() {
 }
 
 function Header() {
-  let bstyle = { bacgroundColor: "red" };
   return (
     <div className="header">
       <div>
