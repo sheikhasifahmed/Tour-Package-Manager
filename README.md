@@ -4,7 +4,7 @@ Live link of this site: https://tour-package-manager.netlify.app
 
 ##  Key points about this project
 
-### Functionality of this project
+### 1.Functionality of this project
 
 You can manage your desired tour packages upto your budget. You can check how much it does
 cost for all the package you choose. Also, you can see wether it crosses your budget or not.
@@ -21,7 +21,7 @@ package will be calculated immediately.
 
 
 
-### Project building script & libraries
+### 2.Project building scripts & libraries
 
 #### Reac.js
 This project had build through React.js which is a javascrip library. 
@@ -36,7 +36,7 @@ here is the fontAwsome link https://fontawesome.com
 
 
 
-### Upcoming upgrades
+### 3.Upcoming upgrades
 
 #### Local Storage
 In a very near future the database will be saved in local storage. So, one can see his/her previous choices in the menu.
