@@ -12,8 +12,10 @@ function App() {
 
 function Header() {
   return (
-    <div>
-      <h1>Welcome to the Complete Tour Package Manager</h1>
+    <div className="header">
+      <h2>Welcome to the Complete Tour Package Manager</h2>
+      <h3>Select your desired tour packages upto your budget</h3>
+      <h3>Estimated Budget: $12000</h3>
     </div>
   );
 }

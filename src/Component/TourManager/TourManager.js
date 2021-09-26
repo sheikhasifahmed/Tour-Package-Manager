@@ -11,10 +11,16 @@ const TourManager = () => {
       .then((data) => setPack(data));
   }, []);
 
+  const [selected, setSelected] = useState([]);
+  function addPackage(pkg) {
+    let temp = [...selected, pkg];
+    setSelected(temp);
+  }
+
   return (
     <div className="grid3">
-      <AllPack pack={pack}></AllPack>
-      <SidePart></SidePart>
+      <AllPack pack={pack} addPackage={addPackage}></AllPack>
+      <SidePart selected={selected}></SidePart>
     </div>
   );
 };

@@ -1,4 +1,24 @@
 .pic {
-  width: 200px;
+  width: 300px;
   height: 200px;
+}
+
+.single-card {
+  /* border: 2px solid grey; */
+  box-shadow: 10px 5px 5px grey;
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: lightsalmon;
+  border: transparent;
+  font-size: medium;
+}
+
+.btn:hover {
+  background-color: grey;
+  color: whitesmoke;
 }
