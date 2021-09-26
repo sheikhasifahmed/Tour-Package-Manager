@@ -13,6 +13,7 @@ const TourManager = () => {
 
   const [selected, setSelected] = useState([]);
   function addPackage(pkg) {
+    if (selected.some((p) => p.id === pkg.id)) return;
     let temp = [...selected, pkg];
     setSelected(temp);
   }

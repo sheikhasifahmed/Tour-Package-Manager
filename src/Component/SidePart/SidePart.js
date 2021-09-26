@@ -9,14 +9,29 @@ const SidePart = (props) => {
   }
   return (
     <div className="side">
-      <h1>Total cost: ${total}</h1>
-      <div>
+      <h1 className="side-head">Total Cost: ${total}</h1>
+      <div className="added-items">
         {selected.map((p) => (
-          <h3>{p.name}</h3>
+          <Item pcz={p}></Item>
         ))}
       </div>
     </div>
   );
 };
+
+function Item(props) {
+  const { name, image } = props.pcz;
+
+  return (
+    <div className="item">
+      <div>
+        <img src={image} alt="" />
+      </div>
+      <div>
+        <h3>{name}</h3>
+      </div>
+    </div>
+  );
+}
 
 export default SidePart;

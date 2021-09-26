@@ -11,22 +11,25 @@ const Single = (props) => {
       <div>
         <img src={image} className="pic" alt="" />
       </div>
-      <div>
-        <h3>{name}</h3>
-        <h3>Spot type: {type}</h3>
+      <div className="card-text">
+        <h1>{name}</h1>
+        <h3>{type}</h3>
         <h3>Visiting Hours: {Timing}</h3>
-        <h3>Transport povided: {transport}</h3>
-        <h3>Spot Rating: {rating}</h3>
-        <h3>Per Head Cost: ${expense}</h3>
+        <h3>Transport: {transport}</h3>
+
+        <h3 className="exp">Expense: ${expense}</h3>
       </div>
-      <button
-        className="btn"
-        onClick={() => {
-          addPackage(pkg);
-        }}
-      >
-        {icon} Add Package
-      </button>
+      <div className="flex-foot">
+        <h3 className="rating">Rating: {rating}</h3>
+        <button
+          className="btn"
+          onClick={() => {
+            addPackage(pkg);
+          }}
+        >
+          {icon} Add Package
+        </button>
+      </div>
     </div>
   );
 };

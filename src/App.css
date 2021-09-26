@@ -4,15 +4,30 @@
 
 body {
   background-color: rgba(0, 0, 0, 0.226);
+  padding-bottom: 20px;
 }
 
 .header {
   background-color: lightgreen;
   padding: 10px;
   margin: 0 10px;
+  display: flex;
+  justify-content: space-evenly;
 }
-
+/* 
 .header > h2,
 .header > h3 {
   margin: 0;
+} */
+
+.budget {
+  display: flex;
+  align-items: center;
+}
+
+.budget > h2 {
+  padding: 5px;
+  background-color: lightslategrey;
+  color: whitesmoke;
+  border-radius: 5px;
 }

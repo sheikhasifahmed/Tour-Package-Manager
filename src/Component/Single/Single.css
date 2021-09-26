@@ -8,10 +8,15 @@
   box-shadow: 10px 5px 5px grey;
   background-color: aliceblue;
   padding: 10px;
+  transition: 0.5s;
+}
+
+.single-card:hover {
+  border: solid 1px aqua;
 }
 
 .btn {
-  padding: 10px;
+  padding: 8px;
   border-radius: 10px;
   background-color: lightsalmon;
   border: transparent;
@@ -21,4 +26,23 @@
 .btn:hover {
   background-color: grey;
   color: whitesmoke;
+}
+
+.flex-foot {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rating {
+  background-color: rgba(218, 165, 32, 0.541);
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.exp {
+  background-color: grey;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 3px;
 }

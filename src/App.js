@@ -11,11 +11,16 @@ function App() {
 }
 
 function Header() {
+  let bstyle = { bacgroundColor: "red" };
   return (
     <div className="header">
-      <h2>Welcome to the Complete Tour Package Manager</h2>
-      <h3>Select your desired tour packages upto your budget</h3>
-      <h3>Estimated Budget: $12000</h3>
+      <div>
+        <h2>Welcome to the Complete Tour Package Manager</h2>
+        <h3>Select your desired tour packages upto your budget</h3>
+      </div>
+      <div className="budget">
+        <h2>Estimated Budget: $12000</h2>
+      </div>
     </div>
   );
 }
