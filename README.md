@@ -32,7 +32,7 @@ package will be calculated immediately.
 This project had build through React.js which is a javascrip library. 
 check it here https://reactjs.org
 
-###  Vanila CSS 
+#### Vanila CSS 
 This project is build with just CSS styling. No, framework of CSS is used. 
 
 #### Font Awsome
